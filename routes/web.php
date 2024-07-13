@@ -15,12 +15,21 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home');
-});
+})->name('home');
 
 Route::get('/about', function () {
-    return view('about-me');
-});
+    $aboutInfo = [
+        "name" => 'Griffith',
+        "generate" => 'Eclissi'
+    ];
+
+    return view('about-me', $aboutInfo);
+})->name('about');
 
 Route::get('/contact', function () {
-    return view('contact');
-});
+    $contactInfo = [
+        "frase" => 'io... vi CONSACRO'
+    ];
+
+    return view('contact', $contactInfo);
+})->name('contact');
