@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    body {
+        background-image: url(../img/bg_Berserk_4K.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        color: white;
+
+        nav {
+            ul {
+                list-style: none;
+                display: flex;
+                justify-content: center;
+                font-size: 1.7rem;
+
+                li:first-of-type {
+                    padding-left: 0;
+                }
+
+                li {
+                    padding: 1rem 2rem;
+
+                    a {
+                        text-decoration: none;
+                        color: black;
+                        text-shadow: .5rem .5rem .7rem #d10101d1;
+                        font-weight: 900;
+                        font-variant: small-caps;
+                    }
+                }
+            }
+        }
+
+        h1,
+        h3 {
+            padding: 1rem;
+            text-align: center;
+            color: #d10101d1;
+            text-shadow: .5rem .5rem .7rem black;
+            cursor: context-menu;
+        }
+
+        h1 {
+            font-size: 3.7rem;
+        }
+
+        h3 {
+            margin-top: 17%;
+            font-size: 2rem;
+        }
+    }
+}
