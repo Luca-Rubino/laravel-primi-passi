@@ -21,6 +21,7 @@
     </nav>
     <header>
         <h1>About Me</h1>
+        <h3>La persona sullo sfondo é {{ $name }}... ed a breve avverrà {{ $generate }}</h3>
     </header>
 </body>
 </html>

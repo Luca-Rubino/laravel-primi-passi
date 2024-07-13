@@ -21,6 +21,7 @@
     </nav>
     <header>
         <h1>Contact</h1>
+        <h3>{{ $frase }}</h3>
     </header>
 </body>
 </html>
