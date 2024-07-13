@@ -21,7 +21,7 @@
         </ul>
     </nav>
     <header>
-        <h1>Hello World</h1>
+        <h1>{{ $titolo }}</h1>
     </header>
 </body>
 </html>
